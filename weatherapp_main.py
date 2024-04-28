@@ -22,6 +22,8 @@ layout = [
 window = sg.Window("Weather App", layout)
 
 while True:
+    api_key = 'c5bcaa9e52187e78b61339a89aafdc3f'  
+    city = 'Chestnut Hill' #we need to find a way how to make this as input from the user. 
     event, values = window.read()
     today_temp,latitude,longitude = today_weather(api_key, city)
     yesterday_temp = yesterday_weather(api_key,latitude,longitude)
