@@ -8,7 +8,7 @@ import recommend_outfit
 
 
 api_key = 'c5bcaa9e52187e78b61339a89aafdc3f'  
-city = 'Chestnut Hill' #find a way how to make this as input from the user. 
+city = 'Chestnut Hill' #we need to find a way how to make this as input from the user. 
 
 layout = [
     [sg.Text("Weather Information", font=("Helvetica", 16))],
