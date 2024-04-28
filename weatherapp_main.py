@@ -1,11 +1,10 @@
 import PySimpleGUI as sg
-import today_weather
-import yesterday_weather
-import raining
-import fetch_rainforecast
-import compare_temperature
-import raining
-import recommend_outfit
+import today_weather from today_weather.py
+import yesterday_weather from yesterday_weather.py
+import raining from raining.py
+import fetch_rainforecast from fetch_rainforecast.py
+import compare_temperature from compare_temperature.py
+import recommend_outfit from recommend_outfit.py
 
 
 api_key = 'c5bcaa9e52187e78b61339a89aafdc3f'  # Replace with your actual API key
